@@ -92,7 +92,7 @@ def home():
 
 @app.get("/alextest")
 def alextest():
-    return render_template_string(PAGE)
+    return "<h1>AlexTest</h1>"
 
 @app.post("/report")
 def report():
